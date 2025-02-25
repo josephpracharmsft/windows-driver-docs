@@ -197,6 +197,8 @@ Adding `NO_KDNIC` will prevent the kdnic.sys driver (a miniport timer-based driv
 
 This can help with network performance that can be affected when kdnic.sys driver is running on top of kdnet. In this situation the target will never go to sleep, preventing power drip tests, or delays will occur when accessing the target via RDP. This is because the KDNET interface needs to route both debugger packets and Windows TCP/IP network packets when kdnic.sys is running.
 
+test
+
 ## See also
 
 [Setting Up KDNET Network Kernel Debugging Automatically](setting-up-a-network-debugging-connection-automatically.md)
